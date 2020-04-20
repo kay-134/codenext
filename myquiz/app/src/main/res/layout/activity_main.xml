@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="@color/pastelViolet"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:background="#212121"
+        android:backgroundTint="@color/pastelViolet"
+        android:fontFamily="@font/amaranth"
+        android:gravity="center"
+        android:text="Welcome to Female Leadership Quiz"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/Untitled_Artwork-1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_weight="1"
+        android:background="#212121"
+        android:backgroundTint="@color/pastelViolet"
+        android:fontFamily="@font/amaranth"
+        android:gravity="center"
+        android:text="The purpose of this app is to pay homage to female leaders in various STEM fields who paved the way for teens like myself to allow us to pursue careers in STEM! These women are not only the history of the STEM FIELD, but are also from our present, creating STEM platforms for women in our world today!"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_weight="1"
+        android:background="#212121"
+        android:backgroundTint="@color/pastelViolet"
+        android:fontFamily="@font/amaranth"
+        android:gravity="center"
+        android:onClick="openQuiz"
+        android:text="Tap here to start!"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+
+
+
+</LinearLayout>
