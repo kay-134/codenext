@@ -14,8 +14,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void openQuiz(View view) {
-        Intent intentToOpenQuiz = new Intent(this, Quiz.class);
-        startActivity(intentToOpenQuiz);
+
+    public void openoptions(View view) {
+        Intent intentToOpenLimbo = new Intent(this, Limbo.class);
+        startActivity(intentToOpenLimbo);
     }
+
+
 }

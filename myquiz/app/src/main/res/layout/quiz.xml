@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue"
-    android:backgroundTint="@color/blue">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="213dp"
-        android:layout_height="198dp"
-        android:text="The quiz will go here!!"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="142dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#212121"
+        android:gravity="center"
+        android:text="Info"
+        android:textColor="@color/astro"
+        android:textSize="48sp"
+        android:onClick="openInfo"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#1db954"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#212121"
+        android:gravity="center"
+        android:text="Albums"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:onClick="openinfo"/>
+
+</LinearLayout>
